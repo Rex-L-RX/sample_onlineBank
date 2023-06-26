@@ -1,0 +1,21 @@
+table {font-family: Arial;
+    width:80%;
+    margin: auto;
+    text-align:center;
+
+    background: aliceblue;
+
+}
+
+td, th {
+    border: 5px;
+    padding:6px;
+    text-align: center;
+    width: 10%;
+}
+
+tr:nth-child(even)
+{background-color: #ddd;
+}
+
+tr:hover {background-color: #f2f2f2;}

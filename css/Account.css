@@ -1,0 +1,157 @@
+body, html{
+    font-size: 14px;
+    font-family: sans-serif;
+    height: 100%;
+    width: 100%;
+
+    background-image: url("../picture/bg.jpg");
+    background-size: cover;
+}
+
+#div1{
+    height: 10%;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+
+
+    opacity: 0.9;
+}
+
+#div2{
+    height: 90%;
+
+}
+
+#transaction_section{
+    position: relative;
+    margin-left: 180px;
+
+    
+    width: 80%;
+
+}
+
+#Logo{
+    width: 40px;
+    height: 40px;
+}
+
+#signOut_section{
+    width: 10%;
+    position: relative;
+    top: -42px;
+    left: 88%;
+}
+
+#signOut{
+    width: 120px;
+    height: 40px;
+    
+    font-size: 16px;
+    
+
+    border-radius: 15px;
+    
+    margin-top: 5px;
+}
+button{
+    width: 150px;
+    height: 35px;
+    
+    font-size: 16px;
+    
+    background-color: lightseagreen;
+    border-radius: 15px;
+    
+    margin-top: 5px;
+    margin-right: 20px;
+    
+    box-shadow: 5px 5px 5px #888888;
+    opacity: 0.77;
+    
+    border-width: 3px;
+    border-color: antiquewhite;
+}
+
+.account_section{
+    height: 50%;
+    border-width: 3px;
+    border-color: blanchedalmond;
+    text-align: center;
+    
+    margin-bottom: 10px;
+}
+
+.account_detail{
+    width: 30%;
+    height: 50%;
+    
+    left: 100px;
+    top: 0px;
+    position: relative;
+    background-color: azure;
+    text-align: center;
+    float: left;
+    
+    border-style: solid;
+    border-color: azure;
+}
+
+.account_balance{
+    width: 30%;
+    height: 50%;
+    
+    position: relative;
+    background-color: azure;
+    text-align: center;
+    
+    top: 0px;
+    float: right;
+    
+    margin-right: 100px;
+    
+    border-style: solid;
+    border-color: azure;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: azure;
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+
+    background-color: aqua;
+
+}
+
+.active {
+    background-color: aqua;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+
+}

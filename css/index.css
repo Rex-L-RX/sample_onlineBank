@@ -1,0 +1,119 @@
+body,html{
+    font-size: 14px;
+    font-family: sans-serif;
+    height: 100%;
+}
+
+button{
+    width: 120px;
+    height: 40px;
+    font-size: 16px;
+    background: #ff8c00;
+    border-radius: 15px;
+    margin-top: 5px;
+
+}
+
+#div1{
+    height: 5%;
+}
+
+#div2{
+    height: 80%;
+    background-image: url("../picture/background1.jpg");
+    background-repeat: no-repeat;
+}
+
+#div3{
+    height: 15%;
+}
+
+#signIn_section{
+    position: relative;
+    width: 20%;
+    right: 40%;
+    top: -40px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+#Logo{
+    width: 40px;
+    height: 40px;
+}
+
+#banner{
+    left: 150px;
+    top: 150px;
+
+    width: 30%;
+    height: 40%;
+
+    position: relative;
+
+    background: white;
+    opacity: 0.66;
+    border-radius: 10px;
+
+    text-align: center;
+    box-shadow: 5px 5px 8px #888888;
+}
+
+#bankinfo{
+    left: 120px;
+    width: 30%;
+    height: 40%;
+
+    position: relative;
+    background: white;
+}
+
+#register {
+    font-size: 16px;
+}
+
+.normal{
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    opacity: 0.8;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+
+P{
+    font-size: 18px;
+}
+
+.submitbt{
+    width: 150px;
+    height: 35px;
+
+    font-size: 16px;
+
+
+    background: #ff8c00;
+    border-radius: 15px;
+
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+#signupFieldSet{
+    width: 26%;
+    height: 35%;
+
+    border-color: #ff8c00;
+
+    border-radius: 20px;
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+
+}
